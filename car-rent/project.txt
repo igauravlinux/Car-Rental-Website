@@ -1,0 +1,16 @@
+5. Gaurav Kumar
+🚗 Car Rental Website
+
+🎯 Create a car booking platform UI.
+
+📄 Pages: Home, Cars, Car Details, Booking, Login, Contact
+
+🎨 Use:
+🚗 Car cards
+📋 Booking form
+
+Cards: image, name, price/day
+
+✨ Animations: hover, buttons
+
+📱 Responsive
