@@ -205,7 +205,7 @@ ul li a:hover{
 /* cars section */
 .footer{
     background-color: var(--body-bg);
-    padding: 50px 0;
+    padding: 45px 0;
 }
 .footer-inner{
     display: flex;
@@ -222,7 +222,7 @@ ul li a:hover{
     align-items: center;
 }
 .footer-inner .social-links .l-part{
-    justify-self: start;
+    justify-self: flex-start;
 }
 .footer-inner .social-links .l-part .logo-name{
     color: var(--swap-btn);
@@ -238,7 +238,7 @@ ul li a:hover{
     line-height: 2;
 }
 .footer-inner .social-links .r-part{
-    justify-self: end;
+    justify-self: flex-end;
     display: flex;
     gap: 50px;
     padding-right: 10px;
@@ -256,4 +256,97 @@ ul li a:hover{
     display: block;
     color: var(--footer-col);
     font-weight: 400;
+}
+.footer-inner .rights{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    align-items: center;
+}
+.footer-inner .rights .l-footer{
+    justify-self: flex-start;
+}
+.footer-inner .rights .l-footer p{
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.footer-inner .rights .r-footer{
+    justify-self: flex-end;
+    display: flex;
+    gap: 30px;
+}
+.footer-inner .rights .r-footer p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* cars */
+.cars{
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: white;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 30px;
+    min-height: 400px;
+    width: 100%;
+}
+.banner .first-ban{
+    background-image: url(./Assests/Ads\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.banner .sec-ban{
+    background-image: url(./Assests/Ads\ 2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.child{
+    min-height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.child .inner-content{
+    padding: 20px;
+}
+.child .inner-content h3{
+    color: white;
+    font-size: clamp(1.2rem, 3vw, 2rem);
+}
+.child .inner-content p{
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+}
+.child .inner-content button{
+    background-color: var(--swap-btn);
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.child .inner-content .button-2{
+    background-color: #69adec;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.child .inner-content .car-image{
+    width: 60%;
+    height: auto;
 }

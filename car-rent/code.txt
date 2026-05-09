@@ -1,0 +1,48 @@
+html
+
+ <h3>The Best Platform for Car Rental</h3>
+                        <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+                        <button type="button" class="button-1">Rental Car</button>
+                        <!-- <img src="./cars-img/car-1.png" class="car-image"> -->
+
+
+
+<h3>Easy way to rent a car at alow price</h3>
+                        <p>Providing cheap car rental services and safe and comfortable facilities.</p>
+                        <button type="button" class="button-2">Rental Car</button>
+                        <!-- <img src="./cars-img/car-2.png" class="car-image"> -->
+
+
+
+css
+.child .inner-content h3{
+    color: white;
+    font-size: clamp(1.2rem, 3vw, 2rem);
+}
+.child .inner-content p{
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+}
+.child .inner-content button{
+    background-color: var(--swap-btn);
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    margin-top: 10px;
+
+}
+.child .inner-content .button-2{
+    background-color: #69adec;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+/* .child .inner-content .car-image{
+    width: 60%;
+    height: auto;
+} */
