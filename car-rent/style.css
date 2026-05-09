@@ -5,7 +5,7 @@
     --swap-btn : #3563E9;
     --nav-col : #696969;
     --footer-col: #696969;
-    
+    --car-bottom-col: #90A3BF;
 }
 
 *{
@@ -283,70 +283,142 @@ ul li a:hover{
 /* cars */
 .cars{
     padding-top: 100px;
-    min-height: 100vh;
-    background-color: white;
+    background-color: var(--body-bg);
 }
-.banner{
+.car-grid-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 30px;
-    min-height: 400px;
-    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 300px auto auto auto auto;
+    gap: 20px;
 }
-.banner .first-ban{
+.box-1{
+    border-radius: 10px;
     background-image: url(./Assests/Ads\ 1.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
     background-position: center;
     background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
-.banner .sec-ban{
+.box-2{
+    border-radius: 10px;
     background-image: url(./Assests/Ads\ 2.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
     background-position: center;
     background-size: cover;
+    grid-column-start: 3;
+    grid-column-end: 5;
 }
-.child{
-    min-height: 400px;
+.box{
     width: 100%;
-    border-radius: 20px;
+    padding: 15px;
     position: relative;
-}
-.child .inner-content{
-    padding: 20px;
-}
-.child .inner-content h3{
-    color: white;
-    font-size: clamp(1.2rem, 3vw, 2rem);
-}
-.child .inner-content p{
-    margin-top: 10px;
-    color: white;
-    font-size: 1rem;
-}
-.child .inner-content button{
-    background-color: var(--swap-btn);
-    padding: 10px 20px;
-    color: white;
-    border: 0;
+    /* border: 1px solid black; */
+    background-color: var(--nav-bg);
+    border-bottom: 1px solid #eee;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all .2s ease;
+}
+.box:hover{
+    transform: translateY(-5px);
+}
+.box .inner-content{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #fff;
+}
+.box .inner-content .r-c{
+    padding-right: 30px;
+}
+.box .inner-content h2{
+    font-size: 2rem;
+    width: 300px;
+    margin-bottom: 15px;
     font-weight: 500;
-    letter-spacing: .2px;
-    margin-top: 10px;
+}
+.box .inner-content p{
+    font-size: 1rem;
+    width: 300px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.box .inner-content button{
+    margin-top: 20px;
+    padding: 13px 25px;
     cursor: pointer;
-}
-.child .inner-content .button-2{
-    background-color: #69adec;
-    padding: 10px 20px;
-    color: white;
+    background-color: #3597dd;
     border: 0;
-    border-radius: 5px;
+    color: white;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    border-radius: 10px;
 }
-.child .inner-content .car-image{
-    width: 60%;
-    height: auto;
+.box .inner-content .r-c img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+/* car cards */
+.box .box-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.box .box-heading .name p{
+    color: grey;
+    font-size: .8rem;
+}
+
+.box .box-heading .box-body img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.box .box-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.box .box-footer .upper{
+    display: flex;
+    justify-content: space-between;
+    color: var(--car-bottom-col);
+}
+.box .box-footer .upper .litre{
+    display: flex;
+    align-items: center;
+}
+.box .box-footer .upper p{
+    margin-left: 5px;
+}
+.box .box-footer .upper .Engine{
+    display: flex;
+    align-items: center;
+}
+
+.box .box-footer .upper .People{
+    display: flex;
+    align-items: center;
+}
+
+.box .box-footer .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box .box-footer .bottom .price{
+    display: flex;
+    align-items: center;
+}
+.box .box-footer .bottom .rent-btn a{
+    padding: 10px 20px;
+    background-color: #3563E9;
+    color: whitesmoke;
+    border-radius: 4px;
 }
