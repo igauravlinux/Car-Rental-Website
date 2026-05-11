@@ -1,5 +1,268 @@
 html
 
+
+
+
+  <header class="header">
+    <div class="container">
+        <div class="header-nav">
+            <h1 class="logo">
+                <a href="index.html">morent</a>
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="car-details.html">Car Details</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-action">
+                <a href="#" class="login-btn">login</a>
+            </div>
+
+              <div class="ham-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+    </div>
+  </header>
+    
+
+  <section class="car-details">
+    <div class="container">
+        <div class="inner-details">
+
+           <div class="sep-boxes">
+             <div class="l-c-d car-con">
+                <img src="./cars-img/car-1.png" height="500">
+            </div>
+            <div class="r-c-d car-con">
+                <h1>Car details</h1>
+                <div class="small-line"></div>
+
+                <div class="specification">
+                    <div class="make spec">
+                        <p>Make</p>
+                        <p>Koenigsegg</p>
+                    </div>
+                    <div class="Model spec">
+                        <p>Model</p>
+                        <p>2018</p>
+                    </div>
+                    <div class="Fuel spec">
+                        <p>Fuel Type</p>
+                        <p>Diesel</p>
+                    </div>
+                    <div class="transmison spec">
+                        <p>Transmisson</p>
+                        <p>Manual</p>
+                    </div>
+                    <a href="./booking.html" class="book-btn">Book Now</a>
+                </div>
+
+            </div>
+
+            <div class="b-c-d car-con">
+
+
+                <div class="first m">
+                    <h1>Car details</h1>
+                    <div class="small-line"></div>
+                    <p>Swedish megacars shattering performance records with innovative, in-house technology</p>
+                </div>
+
+                <div class="second m">
+                    <h1>Car fetures</h1>
+                    <div class="small-line"></div>
+                    <span>Air Conditioning , Central Locking</span>
+                </div>
+
+
+
+            </div>
+           </div>
+           <div class="sep-boxes">
+             <div class="l-c-d car-con">
+                <img src="./cars-img/car-2.png" height="500">
+            </div>
+            <div class="r-c-d car-con">
+                <h1>Car details</h1>
+                <div class="small-line"></div>
+
+                <div class="specification">
+                    <div class="make spec">
+                        <p>Make</p>
+                        <p>Koenigsegg</p>
+                    </div>
+                    <div class="Model spec">
+                        <p>Model</p>
+                        <p>2018</p>
+                    </div>
+                    <div class="Fuel spec">
+                        <p>Fuel Type</p>
+                        <p>Diesel</p>
+                    </div>
+                    <div class="transmison spec">
+                        <p>Transmisson</p>
+                        <p>Manual</p>
+                    </div>
+                    <a href="./booking.html" class="book-btn">Book Now</a>
+                </div>
+
+            </div>
+
+            <div class="b-c-d car-con">
+
+
+                <div class="first m">
+                    <h1>Car details</h1>
+                    <div class="small-line"></div>
+                    <p>Swedish megacars shattering performance records with innovative, in-house technology</p>
+                </div>
+
+                <div class="second m">
+                    <h1>Car fetures</h1>
+                    <div class="small-line"></div>
+                    <span>Air Conditioning , Central Locking</span>
+                </div>
+
+
+
+            </div>
+           </div>
+           <div class="sep-boxes">
+             <div class="l-c-d car-con">
+                <img src="./cars-img/car-3.png" height="500">
+            </div>
+            <div class="r-c-d car-con">
+                <h1>Car details</h1>
+                <div class="small-line"></div>
+
+                <div class="specification">
+                    <div class="make spec">
+                        <p>Make</p>
+                        <p>Koenigsegg</p>
+                    </div>
+                    <div class="Model spec">
+                        <p>Model</p>
+                        <p>2018</p>
+                    </div>
+                    <div class="Fuel spec">
+                        <p>Fuel Type</p>
+                        <p>Diesel</p>
+                    </div>
+                    <div class="transmison spec">
+                        <p>Transmisson</p>
+                        <p>Manual</p>
+                    </div>
+                    <a href="./booking.html" class="book-btn">Book Now</a>
+                </div>
+
+            </div>
+
+            <div class="b-c-d car-con">
+
+
+                <div class="first m">
+                    <h1>Car details</h1>
+                    <div class="small-line"></div>
+                    <p>Swedish megacars shattering performance records with innovative, in-house technology</p>
+                </div>
+
+                <div class="second m">
+                    <h1>Car fetures</h1>
+                    <div class="small-line"></div>
+                    <span>Air Conditioning , Central Locking</span>
+                </div>
+
+
+
+            </div>
+           </div>
+           <div class="sep-boxes">
+             <div class="l-c-d car-con">
+                <img src="./cars-img/car-8.png" height="500">
+            </div>
+            <div class="r-c-d car-con">
+                <h1>Car details</h1>
+                <div class="small-line"></div>
+
+                <div class="specification">
+                    <div class="make spec">
+                        <p>Make</p>
+                        <p>Koenigsegg</p>
+                    </div>
+                    <div class="Model spec">
+                        <p>Model</p>
+                        <p>2018</p>
+                    </div>
+                    <div class="Fuel spec">
+                        <p>Fuel Type</p>
+                        <p>Diesel</p>
+                    </div>
+                    <div class="transmison spec">
+                        <p>Transmisson</p>
+                        <p>Manual</p>
+                    </div>
+                    <a href="./booking.html" class="book-btn">Book Now</a>
+                </div>
+
+            </div>
+
+            <div class="b-c-d car-con">
+
+
+                <div class="first m">
+                    <h1>Car details</h1>
+                    <div class="small-line"></div>
+                    <p>Swedish megacars shattering performance records with innovative, in-house technology</p>
+                </div>
+
+                <div class="second m">
+                    <h1>Car fetures</h1>
+                    <div class="small-line"></div>
+                    <span>Air Conditioning , Central Locking</span>
+                </div>
+
+
+
+            </div>
+           </div>
+
+
+            
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="info">
+                <p>$88.<sup>00</sup></p>
+                <p>/day</p>
+            </span>
+
   <div class="car-cards">
             <div class="banner">
                 <div class="first-ban child">
@@ -30,6 +293,32 @@ html
 
 
 css
+
+
+
+.inner-details{
+    text-align: center;
+}
+.inner-details .info{
+    background-color: rebeccapurple;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:50% ;
+}
+.inner-details .info p{
+    
+}
+
+
+
+
+
+
+
 .banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -94,3 +383,50 @@ css
     width: 60%;
     height: auto;
 }
+
+
+
+
+
+
+
+
+.grid-container {
+    padding: 10px;
+  }
+  .child-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .child-2 .left {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .child-2 .right {
+    width: 100%;
+    text-align: center;
+  }
+  .child-2 .right img {
+    width: 30%;
+    height: auto;
+  }
+
+  /* child-3 */
+  .child-3 .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .child-4 .content .sm-sec {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* skills */
+  .child-5 .bottom-sec {
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
