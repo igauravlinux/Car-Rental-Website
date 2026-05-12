@@ -24,7 +24,7 @@ body{
 }
 .container{
     width: 100%;
-    max-width: 1540px;
+    max-width: 1200px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -432,49 +432,75 @@ ul li a:hover{
 .car-details{
     padding-top: 100px;
     background-color: var(--body-bg);
+    font-family: neue-haas-grotesk-display, sans-serif;
 }
-.sep-boxes{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+.inner-details{
+    padding: 10px;
 }
-.inner-details .car-con{
-    padding: 20px 20px;
-    border: 1px solid;
-    height: 400px;
-    background-color: var(--nav-bg);
-}
-.sep-boxes .l-c-d{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.sep-boxes h1{
-    font-weight: 400;
-    white-space: nowrap;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-}
- .small-line{
-    height: 2px;
-    width: 100px;
-    background-color: var(--swap-btn);
-}
-.sep-boxes .specification .spec{
+.car-box .r-l{
     display: flex;
     justify-content: space-between;
-    margin-top: 35px;
-    margin-bottom: 30px;
 }
-.sep-boxes .specification a{
+.r-l .left{
+    margin-right: 25px;
+    width: calc(100% - 50%);
+    background-color: #ffffff74;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.r-l .left img{
+    width: 100%;
+    object-fit: cover;
+}
+.r-l .right {
+    width: calc(100% - 50%);
+}
+.right h1{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    letter-spacing: .4px;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.right .summary{
+    color: var(--car-bottom-col);
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+.right .pr-day{
+    display: flex;
+    align-items: center;
+}
+.right .pr-day h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.right .pr-day p{
+    font-size: 1.7rem;
+    margin-left: 2px;
+}
+.right .para{
+    color: #696969;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.right .speciality h5{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.right .speciality li{
+    list-style: disc;
+    margin-bottom: 10px;
+}
+.right .book-btn{
+    margin-top: 15px;
+}
+.right .book-btn a{
     padding: 10px 20px;
     background-color: #3563E9;
     color: whitesmoke;
     border-radius: 4px;
-}
-.b-c-d .first{
-    margin-bottom: 20px;
-}
-.m h1, .small-line{
-    margin-bottom: 15px;
 }
