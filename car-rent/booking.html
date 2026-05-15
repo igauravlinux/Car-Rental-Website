@@ -1,119 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="png" href="./Assests/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="png" href="./Assests/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
     <title>MORENT</title>
-</head>
-<body>
-
-  <header class="header">
-    <div class="container">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
         <div class="header-nav">
-            <h1 class="logo">
-                <a href="index.html">morent</a>
-            </h1>
+          <h1 class="logo">
+            <a href="index.html">morent</a>
+          </h1>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cars.html">Cars</a></li>
-                    <li><a href="car-details.html">Car Details</a></li>
-                    <li><a href="booking.html">Booking</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="cars.html">Cars</a></li>
+              <li><a href="car-details.html">Car Details</a></li>
+              <li><a href="booking.html">Booking</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
 
-            <div class="nav-action">
-                <a href="#" class="login-btn">login</a>
-            </div>
+          <div class="nav-action">
+            <a href="#" class="login-btn">login</a>
+          </div>
 
-              <div class="ham-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
+          <div class="ham-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-    </div>
-  </header>
-    
-<!-- booking -->
+      </div>
+    </header>
 
-<section class="booking">
-    <div class="booking-bg">
-        <img src="./Assests/booking-bg.jpg" alt="">
-    </div>
-    <div class="container">
+    <!-- booking -->
+
+    <section class="booking">
+
+      <div class="booking-bg">
+        <img src="./Assests/booking-bg.jpg" alt="" />
+      </div>
+
+      <div class="container">
         <div class="inner-booking">
-                
-            <div class="book-form">
-                <form>
-                    <div class="inner-content">
+          <div class="book-form">
+            <form class="form">
+              <div class="inner-content">
+                <div class="vehicle-type">
+                  <div class="type-heading">
+                    <h3>What type of Vehicle ?</h3>
+                  </div>
+                  <div class="choose-car">
+                    <span class="sel-one">Sport Cars</span>
+                    <span class="sel-two">Hybride Cars</span>
+                  </div>
+                </div>
 
-                        <div class="vehicle-type">
-                            <div class="type-heading">
-                                <h3>What type of Vehicle ?</h3>
-                            </div>
-                            <div class="choose-car">
-                            <a href="./cars.html">Sport Cars</a>
-                            <a href="./cars.html">Hybride Cars</a>
-                            </div>
-                        </div>
-
-                        <div class="destination">
-                                
-                        </div>
-
+                <div class="destination">
+                  <div class="child-1">
+                    <div class="dest-info">
+                      <div class="l-info">
+                        <p>Pickup and return location</p>
+                      </div>
+                      <div class="r-info">
+                        <input type="checkbox" name="" id="" />
+                        <label>Same return location</label>
+                      </div>
+                      <div class="location-addr">
+                        <i class="ri-map-pin-line"></i>
+                        <input type="text">
+                      </div>
                     </div>
-                </form>
-            </div>
+                  </div>
 
+                  <div class="child-2">
+                    <div class="l-info">
+                      <p>Pickup date and time</p>
+                    </div>
+                    <div class="r-info">
+                      <div class="date">
+                        <i class="ri-calendar-line"></i>
+                        <input type="date" />
+                      </div>
+                      <div class="time">
+                        <input type="time" name="" id="" />
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="child-3">
+                    <div class="l-info">
+                      <p>Return date and time</p>
+                    </div>
+                    <div class="r-info">
+                      <div class="date">
+                        <i class="ri-calendar-line"></i>
+                        <input type="date" />
+                      </div>
+                      <div class="time">
+                        <input type="time" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="verification">
+
+                    <div class="age-selector">
+                      <p class="grey">I am</p>
+                      <select>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26+">26+</option>
+                      </select>
+                    </div>
+
+                    <div class="country">
+                      <p class="grey">I live in</p>
+                      <select>
+                        <option value="India">India</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Greece">Greece</option>
+                        <option value="America">America</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Iran">Iran</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Korea">Korea</option>
+                      </select>
+                    </div>
+
+                    <div class="negotiation">
+                      <input type="checkbox">
+                      <p class="col">I have a <span>negotiated rate</span></p>
+                      <i class="ri-error-warning-line"></i>
+                    </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="social-links">
+            <div class="l-part">
+              <p class="logo-name">morent</p>
+              <p class="foot-para">
+                Our vision is to provide convenience <br />
+                and help increase your sales business.
+              </p>
+            </div>
+            <div class="r-part">
+              <!-- first ul -->
+              <ul class="first-ul social-ul">
+                <p>About</p>
+                <li>How it works</li>
+                <li>Featured</li>
+                <li>Partnership</li>
+                <li>Bussiness Relation</li>
+              </ul>
+              <ul class="sec-ul social-ul">
+                <p>Community</p>
+                <li>Events</li>
+                <li>Blog</li>
+                <li>Podcast</li>
+                <li>Invite a friend</li>
+              </ul>
+              <ul class="third-ul social-ul">
+                <p>Socials</p>
+                <li>Discord</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Facebook</li>
+              </ul>
+            </div>
+          </div>
+          <div class="border"></div>
+          <div class="rights">
+            <div class="l-footer">
+              <p>©2026 MORENT. All rights reserved</p>
+            </div>
+            <div class="r-footer">
+              <p>Privacy & Policy</p>
+              <p>Terms & Condition</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="app.js"></script>
-    
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>

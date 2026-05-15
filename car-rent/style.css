@@ -509,20 +509,11 @@ ul li a:hover{
 }
 
 /* booking section */
-
 .booking{
+    position: relative;
+    min-height: 100vh;
     padding-top: 100px;
-    background-color: var(--body-bg);
     font-family: neue-haas-grotesk-display, sans-serif;
-}
-.booking-bg img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2;
 }
 .booking::after{
     content: "";
@@ -530,4 +521,58 @@ ul li a:hover{
     inset: 0;
     background: rgba(0,0,0,0.45);
     z-index: -1;
+}
+
+.booking-bg img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.inner-booking{
+    margin-top: 40px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.book-form{
+    width: 100%;
+}
+.book-form .form{
+    padding: 20px;
+    background-color: #fff;
+}
+.form .inner-content{
+    display: flex;
+    flex-direction: column;
+}
+.form .inner-content .vehicle-type h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.form .inner-content .vehicle-type .choose-car{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.form .inner-content .vehicle-type .choose-car span{
+    background-color: #fff;
+    border:2px solid #3563E9;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;    
+}
+.form .inner-content .vehicle-type .choose-car .sel-one:hover{
+    background-color: #3563E9;
+    color: white;
+}
+.form .inner-content .vehicle-type .choose-car .sel-two:hover{
+    background-color: #3563E9;
+    color: white;
 }
