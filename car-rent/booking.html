@@ -55,9 +55,8 @@
     <!-- booking -->
 
     <section class="booking">
-
       <div class="booking-bg">
-        <img src="./Assests/booking-bg.jpg" alt="" />
+        <!-- <img src="./Assests/booking-bg.jpg" alt="" /> -->
       </div>
 
       <div class="container">
@@ -76,8 +75,10 @@
                 </div>
 
                 <div class="destination">
+
                   <div class="child-1">
-                    <div class="dest-info">
+                      <!-- left -->
+                    <div class="desk-info">
                       <div class="l-info">
                         <p>Pickup and return location</p>
                       </div>
@@ -85,81 +86,88 @@
                         <input type="checkbox" name="" id="" />
                         <label>Same return location</label>
                       </div>
-                      <div class="location-addr">
-                        <i class="ri-map-pin-line"></i>
-                        <input type="text">
-                      </div>
                     </div>
+
+                    <div class="location-addr">
+                      <i class="ri-map-pin-line"></i>
+                      <input type="text" />
+                    </div>
+
                   </div>
 
                   <div class="child-2">
-                    <div class="l-info">
-                      <p>Pickup date and time</p>
-                    </div>
-                    <div class="r-info">
-                      <div class="date">
-                        <i class="ri-calendar-line"></i>
-                        <input type="date" />
+                    <!-- right -->
+                    <div class="pick-up">
+                      <div class="l-info">
+                        <p>Pickup date and time</p>
                       </div>
-                      <div class="time">
-                        <input type="time" name="" id="" />
+                      <div class="r-info">
+                        <div class="date">
+                          <i class="ri-calendar-line"></i>
+                          <input type="text" placeholder="Date" />
+                        </div>
+                        <div class="time">
+                          <input type="text" placeholder="Time"/>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div class="child-3">
-                    <div class="l-info">
-                      <p>Return date and time</p>
-                    </div>
-                    <div class="r-info">
-                      <div class="date">
-                        <i class="ri-calendar-line"></i>
-                        <input type="date" />
+                    <div class="return">
+                      <div class="l-info">
+                        <p>Return date and time</p>
                       </div>
-                      <div class="time">
-                        <input type="time" />
+                      <div class="r-info">
+                        <div class="date">
+                          <i class="ri-calendar-line"></i>
+                          <input type="text" placeholder="Date" />
+                        </div>
+                        <div class="time">
+                          <input type="text" placeholder="Time" />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
+
+
+                
                 <div class="verification">
+                  <div class="age-selector">
+                    <p class="grey">I am</p>
+                    <select>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26+">26+</option>
+                    </select>
+                  </div>
 
-                    <div class="age-selector">
-                      <p class="grey">I am</p>
-                      <select>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <option value="21">21</option>
-                        <option value="22">22</option>
-                        <option value="23">23</option>
-                        <option value="24">24</option>
-                        <option value="25">25</option>
-                        <option value="26+">26+</option>
-                      </select>
-                    </div>
+                  <div class="country">
+                    <p class="grey">I live in</p>
+                    <select>
+                      <option value="India">India</option>
+                      <option value="Germany">Germany</option>
+                      <option value="Greece">Greece</option>
+                      <option value="America">America</option>
+                      <option value="Mexico">Mexico</option>
+                      <option value="Thailand">Thailand</option>
+                      <option value="Iran">Iran</option>
+                      <option value="Japan">Japan</option>
+                      <option value="Korea">Korea</option>
+                    </select>
+                  </div>
 
-                    <div class="country">
-                      <p class="grey">I live in</p>
-                      <select>
-                        <option value="India">India</option>
-                        <option value="Germany">Germany</option>
-                        <option value="Greece">Greece</option>
-                        <option value="America">America</option>
-                        <option value="Mexico">Mexico</option>
-                        <option value="Thailand">Thailand</option>
-                        <option value="Iran">Iran</option>
-                        <option value="Japan">Japan</option>
-                        <option value="Korea">Korea</option>
-                      </select>
-                    </div>
-
-                    <div class="negotiation">
-                      <input type="checkbox">
-                      <p class="col">I have a <span>negotiated rate</span></p>
-                      <i class="ri-error-warning-line"></i>
-                    </div>
+                  <div class="negotiation">
+                    <input type="checkbox" />
+                    <p class="col">I have a <span>negotiated rate</span></p>
+                    <i class="ri-error-warning-line"></i>
+                  </div>
                 </div>
               </div>
             </form>
