@@ -642,6 +642,9 @@ ul li a:hover{
     width: calc(100% - 50%);
     display: flex;
 }
+.child-2 .pick-up{
+    margin-right: 15px;
+}
 .child-2 .l-info{
     margin-bottom: 10px;
 }
