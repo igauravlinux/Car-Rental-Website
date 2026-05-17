@@ -675,9 +675,20 @@ ul li a:hover{
     font-size: 1.2rem;
     color: #3563E9;
 }
-
-
-
+.verification{
+    display: flex;
+    justify-content: space-between;
+}
+.grey{
+    color: var(--car-bottom-col);
+}
+.black{
+    color: black;
+    font-weight: 600;
+}
+.age-selector{
+    
+}
 
 
 
